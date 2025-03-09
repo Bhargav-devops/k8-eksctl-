@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "daws-76-bhargav-tfstate"
-    key    = "minikube"
+    key    = "eksctl"
     region = "us-east-1"
     dynamodb_table = "daws-tfstate-table"
   }
